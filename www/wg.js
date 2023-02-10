@@ -152,10 +152,6 @@ var games = ["FALKEN'S MAZE","BLACK JACK","GIN RUMMY",
             $("span").removeClass("cursor");
         }
 
-        function sleep(ms) {
-            return new Promise(resolve => setTimeout(resolve, ms));
-        }
-
         function printGames(games)
         {
             $('#command').attr('contenteditable',false);
